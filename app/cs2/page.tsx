@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function Cs2Page() {
   return (
     <div className="site-shell cs2-theme">
-      <SiteHeader active="cs2" />
+      <SiteHeader active="spiele" />
       <main>
         <section className="sub-hero cs2-hero" aria-labelledby="cs2-title">
           <div className="sub-hero-copy reveal">

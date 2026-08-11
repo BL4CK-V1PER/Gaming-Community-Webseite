@@ -12,6 +12,10 @@ const { default: worker } = await import(workerUrl.href);
 const basePath = (process.env.PAGES_BASE_PATH ?? "").replace(/\/$/, "");
 const routes = [
   { requestPath: "/", outputPath: "index.html" },
+  { requestPath: "/ueber-uns", outputPath: "ueber-uns/index.html" },
+  { requestPath: "/spiele", outputPath: "spiele/index.html" },
+  { requestPath: "/community", outputPath: "community/index.html" },
+  { requestPath: "/team", outputPath: "team/index.html" },
   { requestPath: "/cs2", outputPath: "cs2/index.html" },
   { requestPath: "/scum", outputPath: "scum/index.html" },
 ];
@@ -27,6 +31,7 @@ await rm(outputDir, { recursive: true, force: true });
 await mkdir(outputDir, { recursive: true });
 await cp(path.join(clientDir, "_next"), path.join(outputDir, "_next"), { recursive: true });
 await cp(path.join(clientDir, "og.png"), path.join(outputDir, "og.png"));
+await cp(path.join(clientDir, "og-v2.png"), path.join(outputDir, "og-v2.png"));
 
 for (const route of routes) {
   const response = await worker.fetch(

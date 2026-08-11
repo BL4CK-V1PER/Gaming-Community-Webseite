@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function ScumPage() {
   return (
     <div className="site-shell scum-theme">
-      <SiteHeader active="scum" />
+      <SiteHeader active="spiele" />
       <main>
         <section className="sub-hero scum-hero" aria-labelledby="scum-title">
           <div className="sub-hero-copy reveal">

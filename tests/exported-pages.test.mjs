@@ -3,24 +3,18 @@ import { access, readFile } from "node:fs/promises";
 import test from "node:test";
 
 const root = new URL("../docs/", import.meta.url);
+const pages = ["index.html", "ueber-uns/index.html", "spiele/index.html", "community/index.html", "team/index.html", "cs2/index.html", "scum/index.html"];
 
-test("exports all three GitHub Pages routes", async () => {
-  const [home, cs2, scum] = await Promise.all([
-    readFile(new URL("index.html", root), "utf8"),
-    readFile(new URL("cs2/index.html", root), "utf8"),
-    readFile(new URL("scum/index.html", root), "utf8"),
-  ]);
-
-  assert.match(home, /Dein Squad/);
-  assert.match(home, /href="\.\/cs2\/"/);
-  assert.match(cs2, /Runde für Runde/);
-  assert.match(scum, /Überleben ist besser/);
-  assert.doesNotMatch(home, /<script\b/i);
+test("exports the complete GitHub Pages site", async () => {
+  const html = await Promise.all(pages.map((page) => readFile(new URL(page, root), "utf8")));
+  assert.match(html[0], /Dein Squad/);
+  assert.match(html[1], /Was uns verbindet/);
+  assert.match(html[2], /Wähle deinen/);
+  assert.match(html[3], /Kein Ort fürs Drama/);
+  assert.match(html[4], /NEXUS bewegen/);
+  html.forEach((page) => assert.doesNotMatch(page, /<script\b/i));
 });
 
-test("includes social preview and GitHub Pages marker", async () => {
-  await Promise.all([
-    access(new URL("og.png", root)),
-    access(new URL(".nojekyll", root)),
-  ]);
+test("includes preview assets and GitHub Pages marker", async () => {
+  await Promise.all([access(new URL("og.png", root)), access(new URL("og-v2.png", root)), access(new URL(".nojekyll", root))]);
 });
