@@ -16,5 +16,10 @@ test("exports the complete GitHub Pages site", async () => {
 });
 
 test("includes preview assets and GitHub Pages marker", async () => {
-  await Promise.all([access(new URL("og.png", root)), access(new URL("og-v2.png", root)), access(new URL(".nojekyll", root))]);
+  await Promise.all([
+    access(new URL("favicon.png", root)),
+    access(new URL("og.png", root)),
+    access(new URL("og-v2.png", root)),
+    access(new URL(".nojekyll", root)),
+  ]);
 });

@@ -5,6 +5,11 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
   title: { default: "NEXUS Gaming Community", template: "%s | NEXUS" },
   description: "Eine Gaming-Community für Counter-Strike 2 und SCUM.",
+  icons: {
+    icon: [{ url: "/favicon.png", type: "image/png" }],
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
   openGraph: {
     title: "NEXUS Gaming Community",
     description: "Eine Community. Zwei Welten.",
