@@ -13,6 +13,9 @@ test("exports the complete GitHub Pages site", async () => {
   assert.match(html[2], /Wähle deinen/);
   assert.match(html[3], /Kein Ort fürs Drama/);
   assert.match(html[4], /Pixel-Rentner bewegen/);
+  assert.match(html[6], /Das Experiment #993/);
+  assert.match(html[6], /PVE SURVIVAL/);
+  assert.match(html[6], /PVP-ZONEN/);
   html.forEach((page) => assert.doesNotMatch(page, /<script\b/i));
 });
 

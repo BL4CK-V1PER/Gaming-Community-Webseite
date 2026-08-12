@@ -78,8 +78,8 @@ export default function Home() {
           </div>
           <div className="featured-copy">
             <p className="eyebrow"><span /> Vorgestellter Bereich</p>
-            <h2 id="featured-title">Eine Insel.<br /><em>Viele Geschichten.</em></h2>
-            <p>Unser SCUM-Bereich verbindet Survival, Basebuilding und eine Community, in der das Drama im Spiel bleibt. Serverdaten und Regeln werden an einem Ort gebündelt.</p>
+            <h2 id="featured-title">Das Experiment<br /><em>#993.</em></h2>
+            <p>Unser SCUM-Server verbindet PVE-Survival mit klaren PvP-Zonen und leichtem RP. Gemeinsam aufbauen, freiwillig riskieren und eigene Geschichten erleben.</p>
             <a className="button button-primary" href="./scum/">SCUM entdecken <span>↗</span></a>
           </div>
         </section>
@@ -97,7 +97,7 @@ export default function Home() {
             </a>
             <a className="game-card scum-card" href="./scum/">
               <div className="card-number">02</div><div className="terrain-lines" aria-hidden="true"><span /><span /><span /><span /><span /></div>
-              <div className="card-content"><p>SURVIVAL // OPEN WORLD</p><h3>SCUM SERVER</h3><span className="card-tagline">Überleben beginnt mit den richtigen Leuten.</span></div>
+              <div className="card-content"><p>PVE // PVP-ZONEN // LEICHTES RP</p><h3>DAS EXPERIMENT #993</h3><span className="card-tagline">Gemeinsam überleben. Risiko selbst wählen.</span></div>
               <div className="card-link">Bereich öffnen <span>↗</span></div>
             </a>
           </div>

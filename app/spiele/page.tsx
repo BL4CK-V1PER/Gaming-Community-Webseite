@@ -20,13 +20,13 @@ export default function GamesPage() {
             </a>
             <a className="game-card game-card-large scum-card" href="/scum/">
               <div className="card-number">02 // SURVIVAL</div><div className="terrain-lines" aria-hidden="true"><span /><span /><span /><span /><span /></div>
-              <div className="card-content"><p>SCUM SERVER</p><h3>Überleben ist besser.<br />Gemeinsam.</h3><span className="card-tagline">Survival, Basebuilding und eine faire Insel-Community.</span></div><div className="card-link">SCUM-Bereich öffnen <span>↗</span></div>
+              <div className="card-content"><p>SCUM // DAS EXPERIMENT #993</p><h3>Gemeinsam überleben.<br />Risiko selbst wählen.</h3><span className="card-tagline">PVE-Survival, PvP-Zonen und leichtes RP.</span></div><div className="card-link">SCUM-Bereich öffnen <span>↗</span></div>
             </a>
           </div>
         </section>
         <section className="content-section mode-comparison" aria-labelledby="comparison-title">
           <div><p className="eyebrow"><span /> Was passt heute?</p><h2 id="comparison-title">Fünf Runden<br />oder fünf Stunden?</h2></div>
-          <div className="comparison-list"><div><span>CS2</span><strong>Taktik · Tempo · Teamplay</strong><p>Für konzentrierte Matches, schnelle Absprachen und den nächsten gemeinsamen Win.</p></div><div><span>SCUM</span><strong>Survival · Aufbau · Geschichten</strong><p>Für lange Sessions, gemeinsame Basen und Pläne, die selten genau so enden wie gedacht.</p></div></div>
+          <div className="comparison-list"><div><span>CS2</span><strong>Taktik · Tempo · Teamplay</strong><p>Für konzentrierte Matches, schnelle Absprachen und den nächsten gemeinsamen Win.</p></div><div><span>SCUM</span><strong>PVE · PvP-Zonen · leichtes RP</strong><p>Für lange Sessions, gemeinsame Basen und Pläne, die selten genau so enden wie gedacht.</p></div></div>
         </section>
       </main>
       <SiteFooter />
