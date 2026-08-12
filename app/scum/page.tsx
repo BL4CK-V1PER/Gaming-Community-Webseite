@@ -37,11 +37,10 @@ export default function ScumPage() {
           <div className="server-copy">
             <p className="eyebrow"><span /> Serverdaten</p>
             <h2 id="server-title">Bereit für das Experiment.</h2>
-            <p>Das Experiment #993 verbindet gemeinsames Überleben mit freiwilligem Risiko und einer Prise Rollenspiel. Die Server-IP wird ergänzt, sobald sie feststeht.</p>
+            <p>Das Experiment #993 verbindet gemeinsames Überleben mit freiwilligem Risiko und einer Prise Rollenspiel.</p>
           </div>
           <div className="server-terminal">
             <div><span>SERVERNAME</span><strong>DAS EXPERIMENT #993</strong></div>
-            <div><span>SERVER-IP</span><strong>WIRD ERGÄNZT</strong></div>
             <div><span>SPIELSTIL</span><strong>PVE SURVIVAL</strong></div>
             <div><span>PVP</span><strong>ABGEGRENZTE PVP-ZONEN</strong></div>
             <div><span>ROLLENSPIEL</span><strong>LEICHTES RP</strong></div>
