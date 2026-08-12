@@ -24,7 +24,7 @@ export function SiteHeader({ active }: { active: ActivePage }) {
         ))}
       </nav>
 
-      <a className="header-cta" href="/#discord">Discord <span aria-hidden="true">↗</span></a>
+      <a className="header-cta" href="https://discord.gg/BGXaUVrVUJ" target="_blank" rel="noreferrer">Discord <span aria-hidden="true">↗</span></a>
 
       <details className="mobile-menu">
         <summary aria-label="Menü öffnen"><span /><span /></summary>
@@ -34,7 +34,7 @@ export function SiteHeader({ active }: { active: ActivePage }) {
               {link.label}
             </a>
           ))}
-          <a href="/#discord">Discord</a>
+          <a href="https://discord.gg/BGXaUVrVUJ" target="_blank" rel="noreferrer">Discord</a>
         </nav>
       </details>
     </header>

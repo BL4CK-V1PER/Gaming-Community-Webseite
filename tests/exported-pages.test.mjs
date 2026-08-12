@@ -17,6 +17,9 @@ test("exports the complete GitHub Pages site", async () => {
   assert.match(html[6], /PVE SURVIVAL/);
   assert.match(html[6], /PVP-ZONEN/);
   assert.doesNotMatch(html[6], /SERVER-IP/);
+  assert.match(html[0], /https:\/\/discord\.gg\/BGXaUVrVUJ/);
+  assert.match(html[5], /https:\/\/discord\.gg\/t6yXphhUUv/);
+  assert.match(html[6], /https:\/\/discord\.gg\/Z8qknyt5WW/);
   html.forEach((page) => assert.doesNotMatch(page, /<script\b/i));
 });
 

@@ -32,12 +32,12 @@ export default function CommunityPage() {
           <div className="faq-list">
             <details><summary>Welche Spiele werden unterstützt?<span>+</span></summary><p>Zum Start konzentriert sich Pixel-Rentner auf Counter-Strike 2 und einen eigenen SCUM-Bereich.</p></details>
             <details><summary>Muss ich besonders gut sein?<span>+</span></summary><p>Nein. Verlässlichkeit, Kommunikation und ein fairer Umgang sind wichtiger als Rang oder Spielzeit.</p></details>
-            <details><summary>Wie kann ich beitreten?<span>+</span></summary><p>Der Discord-Einladungslink wird ergänzt, sobald die Community-Struktur fertig eingerichtet ist.</p></details>
+            <details><summary>Wie kann ich beitreten?<span>+</span></summary><p>Öffne den Pixel-Rentner-Discord über den Einladungsbutton, stell dich kurz vor und leg gemeinsam mit uns los.</p></details>
             <details><summary>Wo finde ich Hilfe?<span>+</span></summary><p>Die Ansprechpartner stehen im Team-Bereich. Später kommen feste Supportkanäle im Discord hinzu.</p></details>
           </div>
         </section>
 
-        <section className="join-banner" id="discord"><div><p className="eyebrow"><span /> Bereit mitzumachen?</p><h2>Dein Platz ist nicht hinter einem Bewerbungsformular.</h2></div><div><p>Discord öffnen, vorstellen und gemeinsam loslegen – der Einladungslink folgt.</p><span className="button button-muted">Discord-Link folgt</span></div></section>
+        <section className="join-banner" id="discord"><div><p className="eyebrow"><span /> Bereit mitzumachen?</p><h2>Dein Platz ist nicht hinter einem Bewerbungsformular.</h2></div><div><p>Discord öffnen, vorstellen und gemeinsam loslegen.</p><a className="button button-primary" href="https://discord.gg/BGXaUVrVUJ" target="_blank" rel="noreferrer">Pixel-Rentner beitreten <span>↗</span></a></div></section>
       </main>
       <SiteFooter />
     </div>

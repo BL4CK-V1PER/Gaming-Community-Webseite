@@ -106,7 +106,7 @@ export default function Home() {
         <section className="manifesto" id="discord" aria-labelledby="manifesto-title">
           <div className="manifesto-index">PR//</div>
           <div><p className="eyebrow"><span /> Wo alles zusammenkommt</p><h2 id="manifesto-title">Komm ins<br />Voice.</h2></div>
-          <div className="manifesto-copy"><p>Matches, Serverabende, Support und die Leute hinter Pixel-Rentner findest du künftig auf unserem Discord.</p><span className="button button-muted">Discord-Link folgt</span></div>
+          <div className="manifesto-copy"><p>Matches, Serverabende, Support und die Leute hinter Pixel-Rentner findest du auf unserem Discord.</p><a className="button button-primary" href="https://discord.gg/BGXaUVrVUJ" target="_blank" rel="noreferrer">Pixel-Rentner Discord <span>↗</span></a></div>
         </section>
       </main>
       <SiteFooter />

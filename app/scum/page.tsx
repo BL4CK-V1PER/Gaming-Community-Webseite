@@ -62,7 +62,7 @@ export default function ScumPage() {
 
         <section className="join-banner" id="join">
           <div><p className="eyebrow"><span /> Die Insel wartet</p><h2>Dein nächstes Kapitel beginnt hier.</h2></div>
-          <div><p>Discord- und Server-Link werden ergänzt, sobald sie feststehen.</p><span className="button button-muted">Verbindung folgt</span></div>
+          <div><p>Komm auf den Discord von Das Experiment #993 und beginne deine Geschichte auf der Insel.</p><a className="button button-primary" href="https://discord.gg/Z8qknyt5WW" target="_blank" rel="noreferrer">SCUM Discord beitreten <span>↗</span></a></div>
         </section>
       </main>
       <SiteFooter />

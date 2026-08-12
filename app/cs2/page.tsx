@@ -49,7 +49,7 @@ export default function Cs2Page() {
 
         <section className="join-banner" id="join">
           <div><p className="eyebrow"><span /> Bereit für die nächste Runde?</p><h2>Dein Platz im Team ist frei.</h2></div>
-          <div><p>Der endgültige Discord-Einladungslink wird hier eingetragen.</p><span className="button button-muted">Discord-Link folgt</span></div>
+          <div><p>Komm auf den CS2-Discord, finde Mitspieler und starte deine nächste gemeinsame Runde.</p><a className="button button-primary" href="https://discord.gg/t6yXphhUUv" target="_blank" rel="noreferrer">CS2 Discord beitreten <span>↗</span></a></div>
         </section>
       </main>
       <SiteFooter />
