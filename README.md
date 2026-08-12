@@ -1,6 +1,6 @@
-# NEXUS Gaming Community
+# Pixel-Rentner Gaming Community
 
-Gemeinsame Website für die Haupt-Community, den CS2-Bereich und den SCUM-Server.
+Gemeinsame Website für die Pixel-Rentner-Community, den CS2-Bereich und den SCUM-Server.
 
 ## Seiten
 

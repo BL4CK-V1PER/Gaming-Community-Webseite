@@ -27,7 +27,7 @@ export default function ScumPage() {
           </div>
 
           <div className="map-board reveal reveal-delay" aria-label="Stilisierte SCUM-Karte">
-            <div className="map-coordinates"><span>SECTOR NXS</span><span>51° N // 10° E</span></div>
+            <div className="map-coordinates"><span>SECTOR PR</span><span>51° N // 10° E</span></div>
             <div className="map-contours" aria-hidden="true"><i /><i /><i /><i /><i /><b>BASE</b><b>DROP</b></div>
             <div className="map-status"><span><i /> COMMUNITY-ZONE</span><strong>SICHER. FAIR. AKTIV.</strong></div>
           </div>

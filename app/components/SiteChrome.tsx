@@ -11,9 +11,9 @@ const links = [
 export function SiteHeader({ active }: { active: ActivePage }) {
   return (
     <header className="site-header">
-      <a className="brand" href="/" aria-label="NEXUS Startseite">
-        <span className="brand-mark" aria-hidden="true"><i /><i /></span>
-        <span><strong>NEXUS</strong><small>Gaming Community</small></span>
+      <a className="brand" href="/" aria-label="Pixel-Rentner Startseite">
+        <img className="brand-emblem" src="/pixel-rentner-favicon.png" alt="" aria-hidden="true" />
+        <span><strong>PIXEL-RENTNER</strong><small>Gaming Community</small></span>
       </a>
 
       <nav className="desktop-nav" aria-label="Hauptnavigation">
@@ -46,10 +46,10 @@ export function SiteFooter() {
     <footer className="site-footer site-footer-expanded">
       <div className="footer-identity">
         <div className="brand footer-brand">
-          <span className="brand-mark" aria-hidden="true"><i /><i /></span>
-          <span><strong>NEXUS</strong><small>Gaming Community</small></span>
+          <img className="brand-emblem" src="/pixel-rentner-favicon.png" alt="" aria-hidden="true" />
+          <span><strong>PIXEL-RENTNER</strong><small>Gaming Community</small></span>
         </div>
-        <p>Die Games wechseln. Die Verbindung bleibt.</p>
+        <p>Die Reaktion wird langsamer. Der Spaß bleibt.</p>
       </div>
       <nav className="footer-column" aria-label="Community-Bereiche">
         <strong>Entdecken</strong>
@@ -65,7 +65,7 @@ export function SiteFooter() {
       </nav>
       <div className="footer-status">
         <span><i /> Community im Aufbau</span>
-        <small>© 2026 NEXUS Gaming</small>
+        <small>© 2026 Pixel-Rentner</small>
       </div>
     </footer>
   );

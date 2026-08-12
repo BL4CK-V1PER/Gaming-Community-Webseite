@@ -3,21 +3,21 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
-  title: { default: "NEXUS Gaming Community", template: "%s | NEXUS" },
-  description: "Eine Gaming-Community für Counter-Strike 2 und SCUM.",
+  title: { default: "Pixel-Rentner Gaming Community", template: "%s | Pixel-Rentner" },
+  description: "Zocken kennt kein Alter: eine entspannte Gaming-Community für Counter-Strike 2 und SCUM.",
   icons: {
-    icon: [{ url: "/favicon.png", type: "image/png" }],
-    shortcut: "/favicon.png",
-    apple: "/favicon.png",
+    icon: [{ url: "/pixel-rentner-favicon.png", type: "image/png" }],
+    shortcut: "/pixel-rentner-favicon.png",
+    apple: "/pixel-rentner-favicon.png",
   },
   openGraph: {
-    title: "NEXUS Gaming Community",
-    description: "Eine Community. Zwei Welten.",
+    title: "Pixel-Rentner Gaming Community",
+    description: "Zocken kennt kein Alter.",
     type: "website",
     locale: "de_DE",
-    images: [{ url: "/og-v2.png", width: 1536, height: 1024, alt: "NEXUS Gaming Community Portal" }],
+    images: [{ url: "/og-pixel-rentner.png", width: 1536, height: 1024, alt: "Pixel-Rentner Gaming Community" }],
   },
-  twitter: { card: "summary_large_image", title: "NEXUS Gaming Community", description: "Eine Community. Zwei Welten.", images: ["/og-v2.png"] },
+  twitter: { card: "summary_large_image", title: "Pixel-Rentner Gaming Community", description: "Zocken kennt kein Alter.", images: ["/og-pixel-rentner.png"] },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

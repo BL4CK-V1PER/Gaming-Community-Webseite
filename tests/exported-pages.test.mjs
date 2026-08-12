@@ -7,17 +7,20 @@ const pages = ["index.html", "ueber-uns/index.html", "spiele/index.html", "commu
 
 test("exports the complete GitHub Pages site", async () => {
   const html = await Promise.all(pages.map((page) => readFile(new URL(page, root), "utf8")));
-  assert.match(html[0], /Dein Squad/);
+  assert.match(html[0], /Zocken kennt/);
+  assert.match(html[0], /Pixel-Rentner/);
   assert.match(html[1], /Was uns verbindet/);
   assert.match(html[2], /Wähle deinen/);
   assert.match(html[3], /Kein Ort fürs Drama/);
-  assert.match(html[4], /NEXUS bewegen/);
+  assert.match(html[4], /Pixel-Rentner bewegen/);
   html.forEach((page) => assert.doesNotMatch(page, /<script\b/i));
 });
 
 test("includes preview assets and GitHub Pages marker", async () => {
   await Promise.all([
-    access(new URL("favicon.png", root)),
+    access(new URL("pixel-rentner-favicon.png", root)),
+    access(new URL("pixel-rentner-logo.png", root)),
+    access(new URL("og-pixel-rentner.png", root)),
     access(new URL("og.png", root)),
     access(new URL("og-v2.png", root)),
     access(new URL(".nojekyll", root)),

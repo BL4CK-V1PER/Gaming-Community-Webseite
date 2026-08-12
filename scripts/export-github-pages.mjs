@@ -31,6 +31,9 @@ await rm(outputDir, { recursive: true, force: true });
 await mkdir(outputDir, { recursive: true });
 await cp(path.join(clientDir, "_next"), path.join(outputDir, "_next"), { recursive: true });
 await cp(path.join(clientDir, "favicon.png"), path.join(outputDir, "favicon.png"));
+await cp(path.join(clientDir, "pixel-rentner-favicon.png"), path.join(outputDir, "pixel-rentner-favicon.png"));
+await cp(path.join(clientDir, "pixel-rentner-logo.png"), path.join(outputDir, "pixel-rentner-logo.png"));
+await cp(path.join(clientDir, "og-pixel-rentner.png"), path.join(outputDir, "og-pixel-rentner.png"));
 await cp(path.join(clientDir, "og.png"), path.join(outputDir, "og.png"));
 await cp(path.join(clientDir, "og-v2.png"), path.join(outputDir, "og-v2.png"));
 

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { SiteFooter, SiteHeader } from "../components/SiteChrome";
 
-export const metadata: Metadata = { title: "Unsere Spiele", description: "Counter-Strike 2 und SCUM bei NEXUS Gaming." };
+export const metadata: Metadata = { title: "Unsere Spiele", description: "Counter-Strike 2 und SCUM bei Pixel-Rentner." };
 
 export default function GamesPage() {
   return (

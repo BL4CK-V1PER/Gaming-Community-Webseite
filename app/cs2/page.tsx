@@ -27,7 +27,7 @@ export default function Cs2Page() {
           </div>
 
           <div className="match-board reveal reveal-delay" aria-label="CS2 Community-Eigenschaften">
-            <div className="match-header"><span>NXS // LOBBY</span><span>CS2</span></div>
+            <div className="match-header"><span>PR // LOBBY</span><span>CS2</span></div>
             <div className="team-row"><span>01</span><strong>TEAMPLAY</strong><i>READY</i></div>
             <div className="team-row"><span>02</span><strong>FAIR PLAY</strong><i>READY</i></div>
             <div className="team-row"><span>03</span><strong>COMMUNITY</strong><i>READY</i></div>
