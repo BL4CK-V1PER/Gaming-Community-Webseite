@@ -54,6 +54,7 @@ for (const route of routes) {
 }
 
 await writeFile(path.join(outputDir, ".nojekyll"), "", "utf8");
+await writeFile(path.join(outputDir, "CNAME"), "pixel-rentner.ma-sch.net\n", "utf8");
 await writeFile(
   path.join(outputDir, "404.html"),
   await readFile(path.join(outputDir, "index.html"), "utf8"),

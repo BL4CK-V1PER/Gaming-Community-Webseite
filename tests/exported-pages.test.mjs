@@ -20,6 +20,9 @@ test("exports the complete GitHub Pages site", async () => {
   assert.match(html[0], /https:\/\/discord\.gg\/BGXaUVrVUJ/);
   assert.match(html[5], /https:\/\/discord\.gg\/t6yXphhUUv/);
   assert.match(html[6], /https:\/\/discord\.gg\/Z8qknyt5WW/);
+  assert.match(html[0], /href="\/_next\/static\/css\//);
+  assert.match(html[0], /src="\/pixel-rentner-logo\.png"/);
+  html.forEach((page) => assert.doesNotMatch(page, /\/Gaming-Community-Webseite\//));
   html.forEach((page) => assert.doesNotMatch(page, /<script\b/i));
 });
 
@@ -31,5 +34,6 @@ test("includes preview assets and GitHub Pages marker", async () => {
     access(new URL("og.png", root)),
     access(new URL("og-v2.png", root)),
     access(new URL(".nojekyll", root)),
+    access(new URL("CNAME", root)),
   ]);
 });
