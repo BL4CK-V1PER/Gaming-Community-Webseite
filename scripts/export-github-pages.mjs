@@ -18,6 +18,7 @@ const routes = [
   { requestPath: "/team", outputPath: "team/index.html" },
   { requestPath: "/cs2", outputPath: "cs2/index.html" },
   { requestPath: "/scum", outputPath: "scum/index.html" },
+  { requestPath: "/emergency20", outputPath: "emergency20/index.html" },
 ];
 
 function prepareStaticHtml(html) {

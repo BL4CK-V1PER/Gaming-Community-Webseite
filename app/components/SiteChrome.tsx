@@ -61,7 +61,7 @@ export function SiteFooter() {
         <strong>Spiele</strong>
         <a href="/cs2/">Counter-Strike 2</a>
         <a href="/scum/">SCUM Server</a>
-        <a href="/team/">Team</a>
+        <a href="/emergency20/">Emergency 20</a>
       </nav>
       <div className="footer-status">
         <span><i /> Community im Aufbau</span>

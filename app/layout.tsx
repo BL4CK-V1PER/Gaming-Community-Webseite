@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
   title: { default: "Pixel-Rentner Gaming Community", template: "%s | Pixel-Rentner" },
-  description: "Zocken kennt kein Alter: eine entspannte Gaming-Community für Counter-Strike 2 und SCUM.",
+  description: "Zocken kennt kein Alter: Pixel-Rentner für Counter-Strike 2, SCUM und die Emergency-20-Lüdenscheid-Modifikation.",
   icons: {
     icon: [{ url: "/pixel-rentner-favicon.png", type: "image/png" }],
     shortcut: "/pixel-rentner-favicon.png",

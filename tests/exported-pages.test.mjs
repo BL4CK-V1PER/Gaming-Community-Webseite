@@ -3,7 +3,7 @@ import { access, readFile } from "node:fs/promises";
 import test from "node:test";
 
 const root = new URL("../docs/", import.meta.url);
-const pages = ["index.html", "ueber-uns/index.html", "spiele/index.html", "community/index.html", "team/index.html", "cs2/index.html", "scum/index.html"];
+const pages = ["index.html", "ueber-uns/index.html", "spiele/index.html", "community/index.html", "team/index.html", "cs2/index.html", "scum/index.html", "emergency20/index.html"];
 
 test("exports the complete GitHub Pages site", async () => {
   const html = await Promise.all(pages.map((page) => readFile(new URL(page, root), "utf8")));
@@ -17,6 +17,12 @@ test("exports the complete GitHub Pages site", async () => {
   assert.match(html[6], /PVE SURVIVAL/);
   assert.match(html[6], /PVP-ZONEN/);
   assert.doesNotMatch(html[6], /SERVER-IP/);
+  assert.match(html[7], /Emergency 20/);
+  assert.match(html[7], /Lüdenscheid/);
+  assert.match(html[7], /PR \/\/ LEITSTELLE/);
+  assert.match(html[7], /<meta property="og:title" content="Emergency 20 \| Lüdenscheid Modifikation"/);
+  assert.match(html[7], /<meta name="twitter:title" content="Emergency 20 \| Lüdenscheid Modifikation"/);
+  assert.doesNotMatch(html[7], /og-pixel-rentner\.png/);
   assert.match(html[0], /https:\/\/discord\.gg\/BGXaUVrVUJ/);
   assert.match(html[5], /https:\/\/discord\.gg\/t6yXphhUUv/);
   assert.match(html[6], /https:\/\/discord\.gg\/Z8qknyt5WW/);

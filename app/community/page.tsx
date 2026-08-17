@@ -30,7 +30,7 @@ export default function CommunityPage() {
         <section className="content-section faq-section" aria-labelledby="faq-title">
           <div><p className="eyebrow"><span /> Häufig gefragt</p><h2 id="faq-title">Kurz erklärt.</h2></div>
           <div className="faq-list">
-            <details><summary>Welche Spiele werden unterstützt?<span>+</span></summary><p>Zum Start konzentriert sich Pixel-Rentner auf Counter-Strike 2 und einen eigenen SCUM-Bereich.</p></details>
+            <details><summary>Welche Spiele werden unterstützt?<span>+</span></summary><p>Pixel-Rentner verbindet Counter-Strike 2, den SCUM-Server Das Experiment #993 und die Emergency-20-Lüdenscheid-Modifikation.</p></details>
             <details><summary>Muss ich besonders gut sein?<span>+</span></summary><p>Nein. Verlässlichkeit, Kommunikation und ein fairer Umgang sind wichtiger als Rang oder Spielzeit.</p></details>
             <details><summary>Wie kann ich beitreten?<span>+</span></summary><p>Öffne den Pixel-Rentner-Discord über den Einladungsbutton, stell dich kurz vor und leg gemeinsam mit uns los.</p></details>
             <details><summary>Wo finde ich Hilfe?<span>+</span></summary><p>Die Ansprechpartner stehen im Team-Bereich. Später kommen feste Supportkanäle im Discord hinzu.</p></details>

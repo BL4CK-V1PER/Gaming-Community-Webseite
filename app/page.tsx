@@ -3,7 +3,7 @@ import { SiteFooter, SiteHeader } from "./components/SiteChrome";
 
 export const metadata: Metadata = {
   title: "Pixel-Rentner Gaming Community",
-  description: "Die entspannte Gaming-Heimat für erfahrene CS2- und SCUM-Spieler.",
+  description: "Die entspannte Gaming-Heimat für CS2, SCUM und die Emergency-20-Lüdenscheid-Modifikation.",
 };
 
 export default function Home() {
@@ -16,9 +16,9 @@ export default function Home() {
             <p className="eyebrow"><span /> Erfahrung trifft Spielfreude</p>
             <h1 id="home-title">Zocken kennt<br /><em>kein Alter.</em></h1>
             <p className="hero-lead">
-              Pixel-Rentner verbindet taktische CS2-Runden mit langen Nächten
-              auf der SCUM-Insel – für alle, die entspannte Abende, klare
-              Ansagen und gute Gesellschaft mehr schätzen als unnötiges Drama.
+              Pixel-Rentner verbindet taktische CS2-Runden, lange Nächte auf
+              der SCUM-Insel und die Emergency-20-Lüdenscheid-Modifikation –
+              für alle, die gute Gesellschaft mehr schätzen als unnötiges Drama.
             </p>
             <div className="hero-actions">
               <a className="button button-primary" href="./spiele/">Unsere Spiele <span aria-hidden="true">↗</span></a>
@@ -33,7 +33,7 @@ export default function Home() {
         </section>
 
         <div className="signal-ticker" aria-label="Pixel-Rentner Schwerpunkte">
-          <div><span>Counter-Strike 2</span><i /> <span>SCUM</span><i /> <span>Kein Drama</span><i /> <span>DE / EU</span><i /> <span>Gute Gesellschaft</span><i /></div>
+          <div><span>Counter-Strike 2</span><i /> <span>SCUM</span><i /> <span>Emergency 20</span><i /> <span>Kein Drama</span><i /> <span>Gute Gesellschaft</span><i /></div>
         </div>
 
         <section className="content-section intro-section" aria-labelledby="intro-title">
@@ -42,12 +42,12 @@ export default function Home() {
             <h2 id="intro-title">Kein anonymer Server.<br /><em>Ein gemeinsamer Ort.</em></h2>
           </div>
           <div className="prose-stack">
-            <p>Pixel-Rentner ist für Menschen, die nicht jedes Match mit Fremden beginnen wollen. Bei uns findest du bekannte Stimmen, klare Regeln und zwei Bereiche mit ganz eigenem Charakter.</p>
+            <p>Pixel-Rentner ist für Menschen, die nicht jedes Match mit Fremden beginnen wollen. Bei uns findest du bekannte Stimmen, klare Regeln und drei Bereiche mit ganz eigenem Charakter.</p>
             <p>Wir müssen nicht die Schnellsten sein. Wir wollen eine Community sein, in der man gern wiederkommt – für eine Premier-Runde, einen Base-Run oder einfach einen Abend im Voice.</p>
           </div>
           <dl className="fact-grid">
             <div><dt>Fokus</dt><dd>Gemeinschaft</dd></div>
-            <div><dt>Spiele</dt><dd>CS2 + SCUM</dd></div>
+            <div><dt>Bereiche</dt><dd>03</dd></div>
             <div><dt>Region</dt><dd>DE / EU</dd></div>
             <div><dt>Grundsatz</dt><dd>Locker bleiben</dd></div>
           </dl>
@@ -59,7 +59,7 @@ export default function Home() {
             <p>Die Community wächst Schritt für Schritt – offen, nachvollziehbar und zusammen mit ihren Mitgliedern.</p>
           </div>
           <ol className="journey-line">
-            <li><span>01</span><strong>Die Idee</strong><p>CS2 und SCUM bekommen eine gemeinsame Heimat.</p></li>
+            <li><span>01</span><strong>Die Idee</strong><p>Unsere Spiele und Projekte bekommen eine gemeinsame Heimat.</p></li>
             <li><span>02</span><strong>Der Aufbau</strong><p>Website, Discord und Serverbereiche werden verbunden.</p></li>
             <li><span>03</span><strong>Die Community</strong><p>Events, Teams und gemeinsame Geschichten folgen.</p></li>
           </ol>
@@ -86,7 +86,7 @@ export default function Home() {
 
         <section className="games-section" aria-labelledby="games-title">
           <div className="section-heading">
-            <div><p className="eyebrow"><span /> Was wir spielen</p><h2 id="games-title">Zwei Spiele.<br />Ein Zuhause.</h2></div>
+            <div><p className="eyebrow"><span /> Was wir spielen</p><h2 id="games-title">Drei Bereiche.<br />Ein Zuhause.</h2></div>
             <p>Jeder Bereich hat seinen eigenen Charakter – und ist nur einen Klick entfernt.</p>
           </div>
           <div className="game-grid">
@@ -98,6 +98,11 @@ export default function Home() {
             <a className="game-card scum-card" href="./scum/">
               <div className="card-number">02</div><div className="terrain-lines" aria-hidden="true"><span /><span /><span /><span /><span /></div>
               <div className="card-content"><p>PVE // PVP-ZONEN // LEICHTES RP</p><h3>DAS EXPERIMENT #993</h3><span className="card-tagline">Gemeinsam überleben. Risiko selbst wählen.</span></div>
+              <div className="card-link">Bereich öffnen <span>↗</span></div>
+            </a>
+            <a className="game-card emergency-card" href="./emergency20/">
+              <div className="card-number">03</div><div className="emergency-signal" aria-hidden="true"><span /><span /><span /></div>
+              <div className="card-content"><p>SIMULATION // MODIFIKATION</p><h3>EMERGENCY 20<br />LÜDENSCHEID</h3><span className="card-tagline">Einsätze koordinieren. Lüdenscheid erleben.</span></div>
               <div className="card-link">Bereich öffnen <span>↗</span></div>
             </a>
           </div>

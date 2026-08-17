@@ -14,8 +14,8 @@ export default function AboutPage() {
         </section>
 
         <section className="content-section split-story" aria-labelledby="story-title">
-          <div><p className="eyebrow"><span /> Unsere Geschichte</p><h2 id="story-title">Zwei Spiele.<br />Eine gemeinsame Idee.</h2></div>
-          <div className="prose-stack"><p>Aus getrennten Runden und Serverprojekten soll ein fester Treffpunkt werden. Counter-Strike 2 liefert den Wettkampf, SCUM die langen Geschichten – Pixel-Rentner verbindet beides.</p><p>Die Website ist dabei unsere Zentrale: Hier stehen Bereiche, Regeln, Serverinformationen und Ansprechpartner übersichtlich an einem Ort.</p><p>Was daraus wird, entscheidet nicht ein Marketingplan, sondern die Menschen, die mitmachen.</p></div>
+          <div><p className="eyebrow"><span /> Unsere Geschichte</p><h2 id="story-title">Drei Bereiche.<br />Eine gemeinsame Idee.</h2></div>
+          <div className="prose-stack"><p>Aus getrennten Runden und Projekten soll ein fester Treffpunkt werden. Counter-Strike 2 liefert den Wettkampf, SCUM die langen Geschichten und Emergency 20 den Einsatz in Lüdenscheid.</p><p>Die Website ist dabei unsere Zentrale: Hier stehen Bereiche, Regeln, Server- und Projektinformationen übersichtlich an einem Ort.</p><p>Was daraus wird, entscheidet nicht ein Marketingplan, sondern die Menschen, die mitmachen.</p></div>
         </section>
 
         <section className="content-section" aria-labelledby="values-title">
@@ -28,7 +28,7 @@ export default function AboutPage() {
         </section>
 
         <section className="timeline-console" aria-label="Pixel-Rentner Entwicklung">
-          <div><span>START</span><strong>Die Idee</strong><p>Eine gemeinsame Heimat für CS2 und SCUM.</p></div>
+          <div><span>START</span><strong>Die Idee</strong><p>Eine gemeinsame Heimat für Spiele, Server und Modifikationen.</p></div>
           <div><span>JETZT</span><strong>Der Aufbau</strong><p>Portal, Community und Serverstrukturen entstehen.</p></div>
           <div><span>NÄCHSTES ZIEL</span><strong>Gemeinsame Erlebnisse</strong><p>Events, Teams und regelmäßige Community-Abende.</p></div>
         </section>
