@@ -13,6 +13,11 @@ test("exports the complete GitHub Pages site", async () => {
   assert.match(html[2], /Wähle deinen/);
   assert.match(html[3], /Kein Ort fürs Drama/);
   assert.match(html[4], /Pixel-Rentner bewegen/);
+  assert.match(html[4], /BL4CK-V1PER/);
+  assert.match(html[4], /PlayOnAWoodPC/);
+  assert.match(html[4], /cj_sparx/);
+  assert.match(html[4], /Prof\. Dr\. Med\. Schlechterchirurg/);
+  assert.doesNotMatch(html[4], /Name wird ergänzt/);
   assert.match(html[6], /Das Experiment #993/);
   assert.match(html[6], /PVE SURVIVAL/);
   assert.match(html[6], /PVP-ZONEN/);
